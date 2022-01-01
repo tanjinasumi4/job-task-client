@@ -2,7 +2,7 @@ import { Button, Container, Grid, TextField, Typography,CircularProgress,Alert }
 import React, { useState } from 'react';
 import { NavLink, useHistory } from 'react-router-dom';
 import useAuth from '../../../hooks/useAuth';
-import login from '../../../images/woman.jpg';
+import login from '../../../images/2016-Suzuki-.jpg';
 
 const Register = () => {
     const [loginData,setLoginData] = useState({});
